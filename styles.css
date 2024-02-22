@@ -1,0 +1,34 @@
+body {
+	font-family: "Open Sans", sans-serif;
+
+}
+
+.toolbar {
+	display: none;
+	/* Par défaut cachée, elle sera affichée via JavaScript */
+}
+
+.toolbar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.toolbar ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+.slider img {
+	transform: rotate(-3deg);
+}
+
+/* Personnalisation des boutons avec Font Awesome */
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}

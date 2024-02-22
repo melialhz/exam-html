@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: "Open Sans", sans-serif;
+	background-color: #f0f0f0;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #eef;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.title {
+	color: #9810aa;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.toolbar-toggle {
+	color: #611241;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.toolbar {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	padding: 10px;
+	background-color: #edabab;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.toolbar ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.slider {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	transform: rotate(-3deg);
+}
+
+.slider img {
+	display: none;
+}
+
+.slider img.active {
+	display: block;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#slider-caption {
+	color: #c33b9e;
+	font-size: 20px;
+	margin-top: 15px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+
+}

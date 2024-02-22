@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Sliders</title>
+		<link rel="stylesheet" href="css/slider.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="title">Sliders, les mondes parallèles ;-)</div>
+			<a href="#" id="toolbar-toggle" class="toolbar-toggle"> <i class="fas fa-chevron-down"></i> Barre d'outils </a>
+		</div>
+
+		<div class="toolbar" id="toolbar">
+			<ul>
+				<li>
+					<button id="slider-previous"><i class="fas fa-backward"></i></button>
+				</li>
+				<li>
+					<button id="slider-toggle"><i class="fas fa-play"></i><i class="fas fa-pause" style="display: none"></i></button>
+				</li>
+				<li>
+					<button id="slider-next"><i class="fas fa-forward"></i></button>
+				</li>
+				<li>
+					<button id="slider-random"><i class="fas fa-random"></i></button>
+				</li>
+			</ul>
+		</div>
+
+		<figure class="slider" id="slider">
+			<img src="images/1.jpg" alt="Image description 1" data-caption="Légende 1" />
+			<img src="images/2.jpg" alt="Image description 2" data-caption="Légende 2" />
+			<img src="images/3.jpg" alt="Image description 3" data-caption="Légende 3" />
+			<img src="images/4.jpg" alt="Image description 4" data-caption="Légende 4" />
+			<img src="images/5.jpg" alt="Image description 5" data-caption="Légende 5" />
+			<img src="images/6.jpg" alt="Image description 6" data-caption="Légende 6" />
+			<figcaption id="slider-caption">Légende 1</figcaption>
+		</figure>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
